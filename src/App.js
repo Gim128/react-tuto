@@ -2,6 +2,9 @@ import './App.css';
 import Main from './Components/Main';
 
 function App() {
+
+  
+
   return (
     <section>
       <div>
@@ -11,11 +14,8 @@ function App() {
       <Main>
         <h5>Leo Munasinghe</h5>
       </Main>
+      <Main />
       <p>react tutorial series</p>
-      <Main />
-      <Main />
-      <Main />
-      <Main />
     </section>
   );
 }
