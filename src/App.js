@@ -16,6 +16,9 @@ function App() {
       </Main>
       <Main />
       <p>react tutorial series</p>
+
+    {/* manual parameters send */}
+      <Main name='Gimhan' age='23' position='web developer' />
     </section>
   );
 }
