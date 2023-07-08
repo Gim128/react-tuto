@@ -9,11 +9,13 @@ const myObj = {
     name:`${name}`,
     nic:`${nic}`,
     position: `${position}`,
-    hobby:`${hobby}`
+    hobby:`${hobby}`,
+    city: "Kalutara"
 }
 
 function Main(props){
-
+    // object distructuring
+    const{ city } = myObj;
     return(
         <div>
             Hello World! this is main.js
@@ -22,6 +24,7 @@ function Main(props){
                 <li>{nic}</li>
                 <li>{myObj.position}</li>
                 <li>{myObj.hobby}</li>
+                <li>{city}</li>
             </ul>
             {props.children}
         </div>
