@@ -13,20 +13,18 @@ const myObj = {
     city: "Kalutara"
 }
 
-function Main(props){
+function Main({children, name, city, hobby, position}){
     // object distructuring
-    const{ city } = myObj;
+    // const{ city } = myObj;
     return(
         <div>
             Hello World! this is main.js
             <ul>
                 <li>{name}</li>
-                <li>{nic}</li>
-                <li>{myObj.position}</li>
-                <li>{myObj.hobby}</li>
+                <li>{position}</li>
+                <li>{hobby}</li>
                 <li>{city}</li>
             </ul>
-            {props.children}
         </div>
     )
 }
